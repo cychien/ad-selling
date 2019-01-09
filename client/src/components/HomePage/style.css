@@ -1,0 +1,19 @@
+.page {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.disabled {
+  pointer-events:none;
+  opacity: 0.5;
+}
+
+.connectAlert {
+  width: 100%;
+  opacity: 1;
+  font-size: 20px;
+  z-index: 99;
+  position: absolute;
+  top: 0px;
+}

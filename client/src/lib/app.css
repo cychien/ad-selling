@@ -1,0 +1,113 @@
+a {
+  cursor: pointer;
+}
+
+.hide {
+  display: none !important;
+}
+
+.modal-dialog.modal-dialog-center {
+  bottom: 0;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  vertical-align: middle;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  border: none;
+  box-shadow: 0 10px 15px 0 rgba(34,36,38,.15);
+}
+
+.modal.show {
+  display: block;
+}
+
+.modal-backdrop.show {
+  opacity: 0.35;
+}
+
+.box-shadow {
+  box-shadow: 0 10px 15px 0 rgba(34,36,38,.1) !important;
+}
+
+.card {
+  box-shadow: 0 5px 10px 0 rgba(34,36,38,.08) !important;
+  border: none !important;
+}
+
+.text-muted, .dropdown-item.disabled, .dropdown-item:disabled {
+  color: #ccc !important;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.text-persred {
+  color: #E94867
+}
+
+.border-persred {
+  border-color: #E94867 !important;
+}
+
+.smallFont {
+  font-size: 0.8rem;
+}
+
+.modal-backdrop.show {
+    opacity: 0.8;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.btn-persred {
+  background-color: #E94867 !important;
+  color: white;
+}
+
+.btn-persred:hover,
+.btn-persred:focus {
+  background-color: #c41839 !important;
+  color: white;
+}
+
+.modal-footer {
+  justify-content: center;
+}
+
+.btn-outline-persred {
+  color: #E94867;
+  border: 1px solid #E94867;
+}
+
+.btn-outline-persred:hover {
+  color: #E94867;
+  border: 1px solid #E94867;
+  background-color: hsla(0,0%,60%,.2);
+}
+
+.btn-outline-persred:focus {
+  color: #E94867;
+  border: 1px solid #E94867;
+  background-color: #F4F6F8;
+}
+
+.oneLine {
+  text-overflow:ellipsis;
+  overflow:hidden;
+  white-space:nowrap;
+}

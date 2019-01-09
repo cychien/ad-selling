@@ -1,0 +1,4 @@
+# Web Server
+DEFAULT_PORT: 8700
+HOST_NAME: //localhost:8700
+API_URL: http://perspicuus.appspot.com/api/v1.0

@@ -1,0 +1,10 @@
+.url {
+  text-overflow:ellipsis;
+  overflow:hidden;
+  white-space:nowrap;
+}
+
+.image {
+  width: 100%;
+  border-radius: 5px;
+}

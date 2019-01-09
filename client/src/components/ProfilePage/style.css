@@ -1,0 +1,20 @@
+.disabled {
+  color: #f8c1cc;
+  border: 1px solid #f8c1cc;
+}
+
+.disabled:hover {
+  color: #E94867;
+  border: 1px solid #E94867;
+  background-color: hsla(0,0%,60%,.2);
+}
+
+.disabled:focus {
+  color: #f8c1cc;
+  border: 1px solid #f8c1cc;
+  background-color: #F4F6F8;
+}
+
+.noAction {
+  pointer-events:none;
+}
